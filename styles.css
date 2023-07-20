@@ -9,12 +9,12 @@ html, body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 30px auto;
+  margin: 10px auto;
   gap: 25px;
   font-family: 'Rubik', sans-serif;
   max-width: 320px;
   border: 3px solid black;
-  padding: 25px 30px;
+  padding: 15px 20px;
 }
 img{
   width: 220px;
@@ -58,3 +58,9 @@ ul li{
   text-align: center;
   border-radius: 8px;
 }
+ @media screen and (max-width:550px) {
+  .container{
+    border: none;
+  }
+  
+ }
